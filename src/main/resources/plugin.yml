@@ -1,0 +1,8 @@
+name: 'XoX'
+version: '0.0.1'
+main: eu.mixeration.xox.PluginMain
+authors: [ Mixeration ]
+api-version: 1.16
+commands:
+  xox:
+    aliases: [ ttt,xox ]

@@ -1,0 +1,48 @@
+messages:
+  prefix: "&3TicTacToe &f» &7"
+  action-bar-prefix: "&3TicTacToe &8| &7%s"
+  item-tag-string: "&fColor!"
+  message-file-reloaded: "&fMessage.yml reloaded"
+  menu:
+    choose-your-color: "Choose your color"
+  game-stats:
+    none: "None"
+    waiting: "Waiting"
+    in-game: "Ingame"
+    end: "End"
+    waiting-for-players: "Waiting for players..."
+    current-turn: "Current Turn: &e%s"
+    winner: "Winner: &e%s"
+  success:
+    prefix: "&aSuccess &8| &7"
+    board-created: "Board created"
+    board-removed: "Board removed"
+    color-selected: "Your colour has been chosen."
+  error:
+    prefix: "&cError &8| &7"
+    no-permission: "No permission"
+    must-be-player: "Must be player"
+    board-create-cancelled: "Board creation cancelled"
+    event-cancelled: "Event cancelled"
+    board-not-found: "Board not found"
+    not-in-game: "Not in game."
+    unable-to-join: "Unable to join"
+    other-player: "This colour is in use by the other player!"
+    not-your-turn: "Not your turn"
+  event:
+    join: "&a%s&r&a has joined this game."
+    left: "&c%s&r&c has left this game."
+    start: "&b&lThe game has begun!"
+    waiting: "&eWaiting for a second player to join..."
+    winner: "&a&lGame Over!&r &7Winner: &e%s"
+  board:
+    cancelled: "&cBoard creation cancelled."
+    create:
+      list-title: "&eBoard List (%d):"
+      list-value: " &8- &b%d, %d, %d, &7(&e&7%s)"
+      line-1: "&eBoard creation begun. Right click on the middle of a 3x3 grid of item frames."
+      line-2: "To cancel, run &b/%s board cancel&7."
+  command:
+    version: "&7Xox version &f%s&7 by &aMixeration&7."
+    help: "&bCommand Help:"
+    entry: "&7/%s &e%s &8- &f%s"
